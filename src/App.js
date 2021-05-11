@@ -9,10 +9,11 @@ function App() {
     <div className="App">
    <header className="App-header">
 
-  
+       <h2>Sign up </h2>
         <Forminput/>
        <hr/>
-       <h1>Login Page</h1> 
+       <h2>Sign in</h2> 
+       <hr/>
         <Form >
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
