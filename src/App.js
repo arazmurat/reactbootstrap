@@ -1,6 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Button, Alert, Form } from "react-bootstrap";
+import { Button,Form } from "react-bootstrap";
 import Forminput from "./Forminput"
 
 
@@ -38,14 +38,16 @@ function App() {
       </header>
       <hr/>
       <h1>Colors</h1>
-      <Alert variant="primary">Primary</Alert>
-      <Alert variant="secondary">Secondary</Alert>
-      <Alert variant="success">Success</Alert>
-      <Alert variant="danger">Danger</Alert>
-      <Alert variant="warning">Warning</Alert>
-      <Alert variant="info">Info</Alert>
-      <Alert variant="light"> Light</Alert>
-      <Alert variant="dark"> Dark</Alert>
+      <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+<div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+<div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+<div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+<div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+<div class="p-3 mb-2 bg-info text-white">.bg-info</div>
+<div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+<div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+<div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+<div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
 <hr/>
 <h2>Button Colors</h2>
       <Button variant="primary">Primary </Button>
@@ -71,6 +73,7 @@ function App() {
       <br />
       <Button variant="dark"> Dark</Button>
       <br />
+      
     </div>
   );
 }
