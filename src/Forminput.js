@@ -3,6 +3,7 @@ import React,{useState} from 'react'
 import { Button, Form ,Col,InputGroup} from "react-bootstrap";
 
 
+
 function Forminput() {
   const [validated, setValidated] = useState(false);
 
@@ -17,6 +18,7 @@ function Forminput() {
   };
 
   return (
+    
     <Form noValidate validated={validated} onSubmit={handleSubmit}>
       <Form.Row>
         <Form.Group as={Col} md="4" controlId="validationCustom01">
@@ -87,6 +89,7 @@ function Forminput() {
           feedback="You must agree before submitting."
         />
       </Form.Group>
+     
       <Button  type="submit">Submit form</Button>
     </Form>
   );

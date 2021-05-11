@@ -3,12 +3,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Alert, Form } from "react-bootstrap";
 import Forminput from "./Forminput"
 
+
 function App() {
   return (
     <div className="App">
    <header className="App-header">
+
+  
         <Forminput/>
-        
+       <hr/>
+       <h1>Login Page</h1> 
         <Form >
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
@@ -32,37 +36,40 @@ function App() {
           
         </Form>
       </header>
-      <Alert variant="primary">Alert Primary</Alert>
-      <Alert variant="secondary"> Alert Secondary</Alert>
-      <Alert variant="success">Alert Success</Alert>
-      <Alert variant="danger">Alert Danger</Alert>
-      <Alert variant="warning"> Alert Warning</Alert>
-      <Alert variant="info">Alert Info</Alert>
-      <Alert variant="light"> Alert Light</Alert>
-      <Alert variant="dark">Alert Dark</Alert>
-
-      <Button variant="primary"> Button Primary </Button>
+      <hr/>
+      <h1>Colors</h1>
+      <Alert variant="primary">Primary</Alert>
+      <Alert variant="secondary">Secondary</Alert>
+      <Alert variant="success">Success</Alert>
+      <Alert variant="danger">Danger</Alert>
+      <Alert variant="warning">Warning</Alert>
+      <Alert variant="info">Info</Alert>
+      <Alert variant="light"> Light</Alert>
+      <Alert variant="dark"> Dark</Alert>
+<hr/>
+<h2>Button Colors</h2>
+      <Button variant="primary">Primary </Button>
       <br />
       <br />
-      <Button variant="secondary"> Button Secondary</Button>
+      <Button variant="secondary">Secondary</Button>
       <br />
       <br />
-      <Button variant="success"> Button Success</Button>
+      <Button variant="success">Success</Button>
       <br />
       <br />
-      <Button variant="danger"> Button Danger</Button>
+      <Button variant="danger"> Danger</Button>
       <br />
       <br />
-      <Button variant="warning"> Button Warning</Button>
+      <Button variant="warning">  Warning</Button>
       <br />
       <br />
-      <Button varinat="info"> Button Info </Button>
+      <Button varinat="info">  Info </Button>
       <br />
       <br />
-      <Button variant="light"> Button Light</Button>
+      <Button variant="light">  Light</Button>
       <br />
       <br />
-      <Button variant="dark"> Button Dark</Button>
+      <Button variant="dark"> Dark</Button>
       <br />
     </div>
   );
